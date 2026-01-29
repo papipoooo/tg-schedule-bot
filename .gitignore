@@ -1,21 +1,9 @@
-####################
-# Go binaries
-####################
 *.exe
 *.exe~
 *.out
 *.test
 bin/
 dist/
-
-####################
-# Logs
-####################
-*.log
-
-####################
-# Environment & secrets
-####################
 .env
 .env.*
 *.local
@@ -23,20 +11,6 @@ secrets.*
 **/*token*
 **/*secret*
 **/*apikey*
-
-####################
-# IDE
-####################
-.idea/
-.vscode/
-
-####################
-# OS junk
-####################
 .DS_Store
 Thumbs.db
-
-####################
-# Project data (local only)
-####################
 data/schedule.json
